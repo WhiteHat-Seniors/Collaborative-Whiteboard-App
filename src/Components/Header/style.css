@@ -1,0 +1,43 @@
+li{
+    display: inline-block;
+    margin : 15px;
+}
+.header li a{
+    text-decoration: none;                             
+    color: black;
+    /* position: relative; */
+}
+.header{
+    font-size: 20px;
+    margin: 0;
+   display: flex; 
+   justify-content: space-between;
+   /* border-bottom: 1px solid rgba(0,0,0,0.2); */
+   padding: 20px 10px;
+   /* background-color: ; */
+}
+.header li a:hover{
+    /* border-bottom: 2px solid	#B5DBD8; */
+    color: 	#B5DBD8;
+}
+.checkBtn{
+    font-size: 25px;
+    color : black;
+    display: none;
+}
+@media only screen and (max-width: 640px)
+{
+   
+    .header{
+       display: block;                    /*for responsiveness of the nabvar*/
+   }
+   li{
+       display: none;
+       
+   }
+   .checkBtn{
+       display: block;
+   }
+ 
+  
+}

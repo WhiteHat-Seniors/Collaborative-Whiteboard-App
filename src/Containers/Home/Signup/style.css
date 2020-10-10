@@ -1,0 +1,36 @@
+.signUp{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* background: #e1f0d3; */
+    /* height: 100vh; */
+}
+.leftSignIn{
+  background-image: url('../../../Assets/setup.svg');
+  background-color: rgba(255, 239, 123, 1.0);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 50vw;
+}
+.formContainer{
+    margin-top : 90px;
+    margin-right: 70px;
+    /* justify-content: center; */
+    /* border: 1px solid black; */
+    
+}
+  
+#para{
+   font-size: 32px;
+}
+input{
+    margin: 15px;
+    border:none ;
+   
+    border-bottom : 1px solid rgba(0,0,0,0.1);
+}
+input:focus{
+    outline: none;
+}

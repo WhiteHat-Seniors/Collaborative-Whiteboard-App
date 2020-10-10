@@ -1,0 +1,66 @@
+.logIn{
+    
+   display: flex;
+   justify-content: space-between;
+   /* align-items: center; */
+   text-transform: capitalize;
+}
+.leftHalf{
+    background-image: url('../../../Assets/setup.svg');
+    background-size: contain;
+    background-color: rgba(255, 239, 123, 1.0);
+    width: 50vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border-right: 1px solid rgba(0, 0, 0, 0.1); */
+}
+.form{
+    margin-top:20vh ;
+    margin-right: 70px;
+    /* background-color: crimson; */
+    height: 50vh;
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+.form input{
+    border-radius: 5px;
+    border: none;
+    padding: 0 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    /* background: black; */
+}
+.form input:focus{
+    outline: none;
+}
+
+#text{
+    text-transform: capitalize;
+    color: black;
+    /* font-weight: bold; */
+}
+#btn{
+    padding: 7px 25px;
+    border-radius: 20px;
+   background: #063A99;
+    background: -webkit-linear-gradient(top left, #063A99, #6BA749);
+    background: -moz-linear-gradient(top left, #063A99, #6BA749);
+    background: linear-gradient(to bottom right, #063A99, #6BA749);;
+    color: wheat;
+}
+#text a{
+     text-decoration: none;
+     color: #990694;
+     /* background: -webkit-linear-gradient(top left, #990694, #BCD62D);
+     background: -moz-linear-gradient(top left, #990694, #BCD62D);
+     background: linear-gradient(to bottom right, #990694, #BCD62D); */
+     clip: text;
+}
+#text a:hover{
+    color:wheat;
+}
+@media only screen and (max-width:840px){
+    
+}
