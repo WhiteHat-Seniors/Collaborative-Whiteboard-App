@@ -33,7 +33,7 @@ const Header = (props) => {
             <Link to={props.onelink}>{props.one}</Link>
           </li>
           <li className="tags">
-            <Link to="/canvas">{props.two}</Link>
+            <Link to={props.twolink}>{props.two}</Link>
           </li>
           <li className="tags">
             <Link to="/collaborate">{props.three}</Link>
