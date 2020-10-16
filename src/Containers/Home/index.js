@@ -13,8 +13,9 @@ return(
      onelink="/"
 
      two = "Canvas"
+     twolink="/Canvas"
 
-     three="Colleborate"
+     three="Collaborate"
      
      four = "Log In"
      fourlink = "/login"
