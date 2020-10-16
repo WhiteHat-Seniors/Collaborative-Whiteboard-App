@@ -9,13 +9,19 @@ return(
   <div >
      {/* giving values to the props fields of navbar or header */ }
      <Header               
-     one="Home"
+     one="Home"         
+     onelink="/"
+
      two = "Canvas"
+
      three="Colleborate"
+     
      four = "Log In"
+     fourlink = "/login"
      />
     <div className="homeContent">
     <div className="content">
+       
     <br/>
         <span className="special">Canvas</span><br/>         {/* the hero area of the home page */}
          The most cool Canvas with brillient features on internet 

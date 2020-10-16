@@ -1,0 +1,20 @@
+.newButton img{
+    width: 52px;
+    -webkit-box-shadow: 10px 26px 39px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 26px 39px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 26px 39px -8px rgba(0,0,0,0.75);
+    border-radius: 60%;
+}
+.newButton{
+    position: absolute;
+    bottom: 35px;
+    right: 15px;
+    
+}
+
+.newButton img:hover{
+    -webkit-box-shadow: 17px 19px 63px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 17px 19px 63px 2px rgba(0,0,0,0.75);
+    box-shadow: 17px 19px 63px 2px rgba(0,0,0,0.75);
+    
+}

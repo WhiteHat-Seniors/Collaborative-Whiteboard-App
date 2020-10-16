@@ -4,8 +4,10 @@ import Home from './Containers/Home';
 import Login from './Containers/Home/Login';
 import Signup from './Containers/Home/Signup';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import {API} from './backend'
 
 const App = (props) => {
+  console.log("API IS",API) // url of backend files....
 return(
   <div>
     <Switch>
